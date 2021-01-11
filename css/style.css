@@ -14,11 +14,7 @@ margin-bottom: 0px;}
 
 p {font-size: 23px; line-height: 1.3em;}
 
-#instagram {margin: 0 auto; border-radius: 999px; margin-top: 30px; margin-bottom: 30px; background: #ffffff; height: 0px; width: 0px;}
-.one-gram img {border-radius: 999px;}
-#instagram .load {position: relative; top: 43%;}
-.container {width: 0px; margin: 0 auto; overflow: auto;}
-.quote {font-weight: 900; font-size: 18px;}
+
 #tweet p {font-weight: 200; font-size: 18px;}
 #tweet p a {color: #777; font-weight: 200; text-decoration: underline;}
 #tweet p a:hover {color: #17FFE4;}
