@@ -9,7 +9,7 @@ title: Work
 <style>
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   float: left;
   width: 30%;
 }
@@ -18,10 +18,29 @@ div.gallery:hover {
   border: 1px solid #777;
 }
 
+  
+    
+  
 div.gallery img {
   width: 100%;
   height: auto;
 }
+  
+ img:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+img:hover:after {
+    opacity:1;
+}
+  
+  
 
 div.desc {
   padding: 15px;
@@ -47,7 +66,7 @@ div.desc {
 
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    <img src="https://github.com/joseph-shaw/joseph-shaw.github.io/blob/gh-pages/work/CatapultPod.png?raw=true" alt="Northern Lights" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
