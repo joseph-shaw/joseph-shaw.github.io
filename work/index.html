@@ -17,16 +17,13 @@ div.gallery {
 div.gallery:hover {
   border: 1px solid #777;
 }
-
-  
-    
   
 div.gallery img {
   width: 100%;
   height: auto;
 }
   
-div.gallery img:after {
+div.gallery:after {
     content:'\A';
     position:absolute;
     width:100%; height:100%;
@@ -36,7 +33,7 @@ div.gallery img:after {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-div.gallery img:hover:after {
+div.gallery:hover:after {
     opacity:1;
 }
   
