@@ -25,11 +25,21 @@ body {
   float: left;
   width: 33%;
   padding: 1.5%;
-}
-
+}  
+  
 .column img {
-  margin-top: 6px;
+  margin-top: 12px;
+ 	/* HOVER OFF */
+  -webkit-transition: .3s ease-in-out;
 }
+  
+ .column img:hover {
+
+  filter: brightness(70%);
+  -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+} 
+  
 
 /* Clear floats after the columns */
 .row:after {
