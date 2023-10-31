@@ -597,6 +597,166 @@ section {
 /* About Section
 --------------------------------*/
 #about {
+  padding: 30px 0;
+}
+
+#about .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#about .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #CE5A67;
+}
+
+#about .contact-info address,
+#about .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#about .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#about .contact-info a {
+  color: #000;
+}
+
+#about .contact-info a:hover {
+  color: #CE5A67;
+}
+
+#about .contact-address,
+#about .contact-phone,
+#about .contact-email {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+
+  #about .contact-address,
+  #about .contact-phone,
+  #about .contact-email {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #about .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+#about #google-map {
+  height: 290px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  #about #google-map {
+    margin-top: 20px;
+  }
+}
+
+#about .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#about .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#about .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+#about .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#about .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#about .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+#about .php-email-form input,
+#about .php-email-form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#about .php-email-form input::focus,
+#about .php-email-form textarea::focus {
+  background-color: #CE5A67;
+}
+
+#about .php-email-form button[type=submit] {
+  background: #CE5A67;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#about .php-email-form button[type=submit]:hover {
+  background: #2dc899;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Old About Section
+--------------------------------*
+#about {
   padding: 60px 0 30px 0;
 }
 
@@ -657,6 +817,7 @@ section {
 #about .content ul li {
   padding-bottom: 10px;
 }
+/
 
 /* Services Section
 --------------------------------*/
