@@ -1177,7 +1177,7 @@ section {
   position: absolute;
   right: 50px;
   font-size: 24px;
-  top: calc(50% - 18px);
+  top: calc(100% - 18px);
   color: rgba(255, 255, 255, 0.6);
   transition: ease-in-out 0.3s;
 }
