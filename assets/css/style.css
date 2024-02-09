@@ -978,7 +978,7 @@ section {
   position: relative;
   margin: auto;
   top: 0;
-  justify-content: center;
+  max-width: 100%;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
