@@ -975,7 +975,7 @@ section {
 }
 
 #portfolio .portfolio-item img {
-  position: relative;
+  position: absolute;
   margin: auto;
   top: 0;
   transform: translate(-50%, -50%);
